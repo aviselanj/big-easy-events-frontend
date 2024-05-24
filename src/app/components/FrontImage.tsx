@@ -3,12 +3,12 @@ import React from 'react';
 export default function FrontImage() {
   return (
     <>
-          <div className="bg-scroll bg-stone-950 opacity-80 w-3/4 leading-8 min-w-80 text-amber text-left hover:capitalize">
+          <div className="bg-scroll bg-stone-950 opacity-75 w-3/4 leading-8 min-w-80  text-left hover:capitalize rounded-lg">
               <div className='pl-14 content-around place-content-between min-w-48 md:h-full md:w-auto pr-24'>
                   <header>
-                      <h1 className='text-4xl p-10 line-clamp-none hover:text-6xl'>Welcome To Big Easy Events!</h1>
+                      <h1 className='text-4xl p-10 line-clamp-none hover:text-6xl text-slate'>Welcome To Big Easy Events!</h1>
                   </header>
-                  <section className='p-1'>
+                  <section className='p-1 text-slate'>
                       <h2 className='text-2xl hover:text-3xl'>Our Story</h2>
                       <p>Born out of a love for New Orleans and a desire to simplify event planning, Big Easy Events was founded by a team of locals who know this city like the back of their hand. With years of experience in the event industry and a deep understanding of the nuances that make New Orleans special, we set out to create a platform that celebrates New Orleans rich heritage while providing modern, innovative event planning solutions.</p>
                   </section>
