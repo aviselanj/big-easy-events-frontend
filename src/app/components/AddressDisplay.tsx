@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function AddressDisplay({name, street, city, state, zip}) {
+export default function AddressDisplay({names}:{names:any}, {street}:{street:any}, {city}:{city:any}, {state}:{state:any}, {zip}:{zip:any}) {
   return (
    
     <address>
-    {name}
+    {names}
     <br></br>
     {street}
       <br></br>

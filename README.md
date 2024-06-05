@@ -1,7 +1,9 @@
 # Big Easy Events App Frontend
+
 **Author:** Avielle Lewis
 
 [Deployed site](https://bigeasyevents.netlify.app/)
+
 Big Easy Events is an all-in-one event planning app designed specifically for New Orleans. Whether you're organizing a Mardi Gras parade, a jazz festival, a corporate conference, or a wedding in the French Quarter, this app has everything you need to plan and manage your event seamlessly.
 
 **Key Features:**
@@ -33,8 +35,6 @@ Big Easy Events is an all-in-one event planning app designed specifically for Ne
 - Provides access to local resources and expertise specific to New Orleans.
 - Enhances communication and collaboration between event organizers, vendors, and attendees.
 - Offers peace of mind with emergency assistance features and real-time support.
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

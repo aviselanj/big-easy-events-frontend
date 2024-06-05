@@ -3,9 +3,9 @@ import { useState } from 'react';
 export default function Login() {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
-    const handleSubmit = (e)=>{
+    const handleSubmit = (e: { preventDefault: () => void; }) =>{
         e.preventDefault();
-        console.log(email, password)
+        console.log(email, password);
     }
     return (
 
