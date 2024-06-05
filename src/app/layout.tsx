@@ -5,6 +5,8 @@ import "./globals.css";
 import Header from './components/Header';
 import FrontImage from "./components/FrontImage";
 import Footer from "./components/Footer";
+import Login from "./components/Login";
+import AddressDisplay from "./components/AddressDisplay";
 import { useState } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,14 +27,18 @@ export default function RootLayout({
       
       
       <body>
+       <AddressDisplay name="Avielle Lewis" street="6775 Deanne St" city="New Orleans" state="LA" zip="70126"/>
         <Header />
-
-        <main className=" text-white bg-cover bg-center bg-fixed flex max-h-cover min-h-screen p-24 flex-col items-center  h-14  bg-[url('https://images.pexels.com/photos/21771321/pexels-photo-21771321/free-photo-of-people-walking-on-bourbon-street-in-new-orleans-usa.jpeg?auto=compress&cs=tinysrgb&w=800')]">
+        
+        <main className=" text-slate bg-cover bg-center bg-fixed flex max-h-cover min-h-screen p-24 flex-col items-center  h-14  bg-[url('https://images.pexels.com/photos/21771321/pexels-photo-21771321/free-photo-of-people-walking-on-bourbon-street-in-new-orleans-usa.jpeg?auto=compress&cs=tinysrgb&w=800')]">
+          
+          <Login />
+          
           <FrontImage />
           {children}
-          
+         
         </main>
-        
+       
         {<Footer />}
         </body>
       

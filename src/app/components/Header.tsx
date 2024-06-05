@@ -26,7 +26,7 @@ export default function Header() {
                             </div>
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                                   
+
                                     <div className="flex space-x-4">
                                         <h1 className="text-gray-300 text-2xl bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-violet-400 to-lime-500">Big Easy Events</h1>
                                     </div>
@@ -34,17 +34,17 @@ export default function Header() {
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href={"/"}>Home</a>
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="#">Personal Plan</a>
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="#">Calendar</a>
-                                
-                        </div>
+                                    <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="https://www.xplorit.com/new-orleans">Virtual Tour</a>
+                                </div>
 
-</div>
-</div>
+                            </div>
+                        </div>
 
                     </div>
 
-                                
 
-                                      
+
+
                 </nav>
 
 

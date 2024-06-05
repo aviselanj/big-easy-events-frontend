@@ -2,6 +2,14 @@
 import Image from "next/image";
 import axios from "axios";
 
+import { initializeApp } from 'firebase/app';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
 export default function Home() {
   const baseURL: string | undefined = process.env.NEXT_PUBLIC_SERVER;
   if(baseURL){
